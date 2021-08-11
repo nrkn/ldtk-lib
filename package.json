@@ -1,0 +1,28 @@
+{
+  "name": "ldtk-lib",
+  "version": "0.1.0",
+  "description": "Lib for LDTK format - JSON schema, typescript types, helper functions",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "rimraf dist && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nrkn/ldtk-lib.git"
+  },
+  "keywords": [
+    "LDTK",
+    "json-schema"
+  ],
+  "author": "Nik Coughlin <nrkn.com@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nrkn/ldtk-lib/issues"
+  },
+  "homepage": "https://github.com/nrkn/ldtk-lib#readme",
+  "dependencies": {
+    "ajv": "^8.6.2",
+    "json-schema-to-ts": "^1.6.4"
+  }
+}
