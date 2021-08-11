@@ -1,6 +1,6 @@
 {
   "name": "ldtk-lib",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "Lib for LDTK format - JSON schema, typescript types, helper functions",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -13,7 +13,9 @@
   },
   "keywords": [
     "LDTK",
-    "json-schema"
+    "json-schema",
+    "level", 
+    "editor"
   ],
   "author": "Nik Coughlin <nrkn.com@gmail.com>",
   "license": "MIT",
